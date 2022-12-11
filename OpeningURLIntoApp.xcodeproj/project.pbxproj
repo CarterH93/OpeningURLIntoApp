@@ -11,6 +11,7 @@
 		BC47135829458F3E00A84971 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC47135729458F3E00A84971 /* ContentView.swift */; };
 		BC47135A29458F4000A84971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC47135929458F4000A84971 /* Assets.xcassets */; };
 		BC47135E29458F4000A84971 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC47135D29458F4000A84971 /* Preview Assets.xcassets */; };
+		BC471366294590AD00A84971 /* SecondaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC471365294590AD00A84971 /* SecondaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,8 @@
 		BC47135929458F4000A84971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC47135B29458F4000A84971 /* OpeningURLIntoApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpeningURLIntoApp.entitlements; sourceTree = "<group>"; };
 		BC47135D29458F4000A84971 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC47136429458F8400A84971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BC471365294590AD00A84971 /* SecondaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +55,10 @@
 		BC47135429458F3E00A84971 /* OpeningURLIntoApp */ = {
 			isa = PBXGroup;
 			children = (
+				BC47136429458F8400A84971 /* Info.plist */,
 				BC47135529458F3E00A84971 /* OpeningURLIntoAppApp.swift */,
 				BC47135729458F3E00A84971 /* ContentView.swift */,
+				BC471365294590AD00A84971 /* SecondaryView.swift */,
 				BC47135929458F4000A84971 /* Assets.xcassets */,
 				BC47135B29458F4000A84971 /* OpeningURLIntoApp.entitlements */,
 				BC47135C29458F4000A84971 /* Preview Content */,
@@ -141,6 +146,7 @@
 			files = (
 				BC47135829458F3E00A84971 /* ContentView.swift in Sources */,
 				BC47135629458F3E00A84971 /* OpeningURLIntoAppApp.swift in Sources */,
+				BC471366294590AD00A84971 /* SecondaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +275,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpeningURLIntoApp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -307,6 +314,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpeningURLIntoApp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
